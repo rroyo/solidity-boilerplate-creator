@@ -1,0 +1,32 @@
+{
+  "name": "solidity-boilerplate-creator",
+  "version": "0.1.0",
+  "description": "This tool provides a straightforward way to generate Solidity boilerplates for contracts, scripts, and tests.",
+  "main": "index.js",
+  "author": "Ramon Royo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rroyo/solidity-boilerplate-creator"
+  },
+  "keywords": [
+    "solidity",
+    "smart",
+    "contract",
+    "boilerplate",
+    "cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/rroyo/solidity-boilerplate-creator/issues"
+  },
+  "homepage": "https://github.com/rroyo/solidity-boilerplate-creator#readme",
+  "scripts": {
+    "sol-create": "node index.js"
+  },
+  "bin": {
+    "sol-create": "./src/index.js"
+  },
+  "dependencies": {
+    "commander": "^11.1.0"
+  }
+}
