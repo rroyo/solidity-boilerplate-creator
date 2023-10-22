@@ -1,6 +1,6 @@
 {
   "name": "solidity-boilerplate-creator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "This tool provides a straightforward way to generate Solidity boilerplates for contracts, scripts, and tests.",
   "main": "index.js",
   "author": "Ramon Royo",

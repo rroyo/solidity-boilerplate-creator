@@ -75,3 +75,14 @@ pragma solidity ^0.8.18;
 ```
 
 You can define and use as many custom placeholders as you need in the `config.json` file.
+
+## Changelog
+
+### v0.1.1
+
+- Clarified the error messages.
+
+### v0.1.0
+
+- Initial release.
+- Basic functionality is in place for creating contracts, scripts, and tests boilerplates.

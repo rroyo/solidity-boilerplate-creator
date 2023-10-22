@@ -44,7 +44,7 @@ function createBoilerplate(filename, options, templateConfig) {
 
   if (!fs.existsSync(folder)) {
     console.error(
-      `Error: Cannot find the folder "${folder}". Ensure you are running this command from the root folder of your contract.`
+      `Error: Cannot find the folder "${folder}". Ensure you are running this command from a folder where the "${folder}" folder is present.`
     );
     return;
   }
