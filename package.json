@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rroyo/solidity-boilerplate-creator"
+    "url": "git+https://github.com/rroyo/solidity-boilerplate-creator.git"
   },
   "keywords": [
     "solidity",
@@ -24,7 +24,7 @@
     "sol-create": "node index.js"
   },
   "bin": {
-    "sol-create": "./src/index.js"
+    "sol-create": "src/index.js"
   },
   "dependencies": {
     "commander": "^11.1.0"
