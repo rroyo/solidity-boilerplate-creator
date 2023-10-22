@@ -7,6 +7,12 @@ This tool provides a straightforward way to generate Solidity boilerplates for c
 > This tool is tailored towards that setup and the folder structure recommended in the course.  
 > The boilerplate templates can be modified to your needs, but other than that if you're not using Foundry, this tool might not fit your workflow.
 
+## Install
+
+Since this is a CLI tool, I'd suggest that you install the package globally:
+
+`npm i -g solidity-boilerplate-creator`
+
 ## Usage
 
 From the root folder containing the `src`, `script`, and `test` directories, run:
