@@ -9,7 +9,7 @@ This tool provides a straightforward way to generate Solidity boilerplates for c
 
 ## Usage
 
-From the root folder containing the src, script, and test directories, run:
+From the root folder containing the `src`, `script`, and `test` directories, run:
 
 `sol-create [options] <fileName>`
 
@@ -48,7 +48,7 @@ Placeholders allow for dynamic content insertion into the templates. They are de
 
 Then, in the template files, you can refer to these placeholders by wrapping the keys from the `config.json` file in double curly braces.
 
-Here's a boilerplate example:
+Here's a boilerplate template example:
 
 ```solidity
 // SPDX-License-Identifier: {{LICENSE}}
@@ -58,7 +58,7 @@ pragma solidity ^{{COMPILER_VERSION}};
 //{{dummy_testing}}
 ```
 
-This will result in:
+And here's the final output:
 
 ```solidity
 // SPDX-License-Identifier: MIT
